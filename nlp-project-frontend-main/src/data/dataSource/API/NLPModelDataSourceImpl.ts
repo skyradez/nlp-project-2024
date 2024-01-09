@@ -3,7 +3,7 @@ import {NLPModel} from "../../../domain/model/NLPModel.ts";
 import axios from "axios";
 import {NLPModelEntity} from "./entity/NLPModelEntity.ts";
 
-const BASE_URL = "http://auristella.pythonanywhere.com/model";
+const BASE_URL = "http://62.72.23.195:9002/model";
 
 export default class NLPModelDataSourceImpl implements NLPModelDataSource {
     private axiosInstance = axios.create({
